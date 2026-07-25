@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FITBODY — Premium Gym & Fitness | Mazar-e-Sharif</title>
+  <meta name="description" content="FITBODY is a premium bodybuilding and fitness gym in Mazar-e-Sharif, Alokozay intersection, Al-watan Market, 4th Floor. Personal coaching by Mirwais Sakhi & Nasibullah Azimi." />
+  <meta name="theme-color" content="#0a0b0f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="brand" aria-label="FITBODY home">
+        <svg class="brand__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6M6 7v10M18 7v10M21 9v6M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>FIT<span>BODY</span></span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#why" data-i18n="nav_why">Why Us</a>
+        <a href="#facilities" data-i18n="nav_facilities">Facilities</a>
+        <a href="#trainers" data-i18n="nav_trainers">Trainers</a>
+        <a href="#schedule" data-i18n="nav_schedule">Schedule</a>
+        <a href="#membership" data-i18n="nav_membership">Membership</a>
+        <a href="#faq" data-i18n="nav_faq">FAQ</a>
+        <a href="#contact" class="btn btn--sm" data-i18n="nav_contact">Contact Us</a>
+      </nav>
+      <div class="nav__right">
+        <div class="lang-switch" role="group" aria-label="Language / زبان">
+          <button type="button" data-lang="en" class="active">EN</button>
+          <button type="button" data-lang="fa">دری</button>
+        </div>
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="hero__eyebrow reveal" data-i18n="hero_eyebrow">Bodybuilding · Fitness · Personal Coaching — Mazar-e-Sharif</p>
+        <h1 class="hero__title reveal" data-i18n="hero_title">Become the <span>Strongest</span><br>Version of Yourself</h1>
+        <p class="hero__sub reveal" data-i18n="hero_sub">Train in a premium, high-energy gym built for real results — expert coaching, serious equipment, and a community that pushes you forward.</p>
+        <div class="hero__actions reveal">
+          <a href="#facilities" class="btn btn--lg" data-i18n="hero_explore">Explore the Gym</a>
+          <a href="#contact" class="btn btn--ghost btn--lg" data-i18n="hero_contact">Contact Us</a>
+        </div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__text reveal">
+          <p class="label" data-i18n="about_label">About FITBODY</p>
+          <h2 data-i18n="about_h2">A gym engineered for <span>results</span>, not excuses.</h2>
+          <p data-i18n="about_p">FITBODY is a premium bodybuilding and fitness gym in the heart of Mazar-e-Sharif. We combine a serious training floor with personal coaching from two dedicated professionals — so every member trains with purpose.</p>
+          <div class="about__values">
+            <div class="value">
+              <h4 data-i18n="about_mission">Our Mission</h4>
+              <p data-i18n="about_mission_p">Help every member build strength, confidence, and lasting health through smart, consistent training.</p>
+            </div>
+            <div class="value">
+              <h4 data-i18n="about_values">Our Values</h4>
+              <p data-i18n="about_values_p">Discipline, respect, and real progress. No gimmicks — just hard work and expert guidance.</p>
+            </div>
+            <div class="value">
+              <h4 data-i18n="about_commit">Our Commitment</h4>
+              <p data-i18n="about_commit_p">Clean facilities, modern equipment, and coaches who actually know your name and your goals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about__media reveal">
+          <img src="images/personal-fitness-trainer-coaching-portra-3.jpg" alt="FITBODY coach consulting with a member" loading="lazy" />
+          <div class="about__media-badge" data-i18n="about_badge">Coached by<br><strong>Mirwais &amp; Nasibullah</strong></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats reveal">
+          <div class="stat">
+            <span class="stat__num" data-target="1000" data-suffix="+">0</span>
+            <span class="stat__label" data-i18n="stat_members">Happy Members</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="15" data-suffix="+">0</span>
+            <span class="stat__label" data-i18n="stat_trainers">Professional Trainers</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="8" data-suffix="+">0</span>
+            <span class="stat__label" data-i18n="stat_years">Years of Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-target="4.9" data-decimals="1" data-suffix="★">0</span>
+            <span class="stat__label" data-i18n="stat_rating">Customer Rating</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY CHOOSE US ===================== -->
+    <section class="section section--dark" id="why">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="label" data-i18n="why_label">Why Choose Us</p>
+          <h2 data-i18n="why_h2">Everything you need to train at your best</h2>
+        </div>
+        <div class="grid grid--4 features">
+          <article class="feature reveal">
+            <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6M6 7v10M18 7v10M21 9v6M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3 data-i18n="why1_t">Professional Trainers</h3>
+            <p data-i18n="why1_d">Certified coaches who build programs around your goals and keep you accountable.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12M6 7V5h12v2M6 17h12M6 17v2h12v-2M4 7v10M20 7v10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3 data-i18n="why2_t">Modern Equipment</h3>
+            <p data-i18n="why2_d">Free weights, machines, treadmills, and a climbing machine — all maintained to a high standard.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21V8l9-5 9 5v13M9 21v-6h6v6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3 data-i18n="why3_t">Spacious Workout Areas</h3>
+            <p data-i18n="why3_d">Dedicated zones for lifting, cardio, and functional training — no crowding, no waiting.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.35-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 11c0 5.65-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+            <h3 data-i18n="why4_t">Personal Coaching</h3>
+            <p data-i18n="why4_d">One-on-one sessions with Mirwais or Nasibullah — fully customized to you.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M3 12h18M7 7l10 10M17 7L7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3 data-i18n="why5_t">Nutrition Guidance</h3>
+            <p data-i18n="why5_d">Practical diet advice that fits your training and your lifestyle — no fad diets.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 11a4 4 0 1 0-8 0M12 15v6M8 21h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3 data-i18n="why6_t">Friendly Community</h3>
+            <p data-i18n="why6_d">A welcoming, motivated atmosphere where beginners and athletes train side by side.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3 data-i18n="why7_t">Hygiene &amp; Cleanliness</h3>
+            <p data-i18n="why7_d">Daily sanitization of equipment and facilities so you can train with peace of mind.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7M21 4v4h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3 data-i18n="why8_t">Flexible Memberships</h3>
+            <p data-i18n="why8_d">Simple monthly plans from 500 AFN — upgrade anytime, no long contracts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FACILITIES ===================== -->
+    <section class="section" id="facilities">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="label" data-i18n="fac_label">Facilities</p>
+          <h2 data-i18n="fac_h2">A space built for serious training</h2>
+          <p class="section__note" data-i18n="fac_note">Take a look inside FITBODY — hover any image to explore.</p>
+        </div>
+        <div class="gallery">
+          <figure class="gallery__item reveal">
+            <img src="images/gym-interior-weight-training-people-exer-2.jpg" alt="Weight training area" loading="lazy" />
+            <figcaption><h4 data-i18n="gal_weight_t">Weight Area</h4><p data-i18n="gal_weight_s">Free weights &amp; machines</p></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="images/cardio-zone-treadmill-climbing-machine-g-2.jpg" alt="Cardio zone with treadmill" loading="lazy" />
+            <figcaption><h4 data-i18n="gal_cardio_t">Cardio Zone</h4><p data-i18n="gal_cardio_s">Treadmills &amp; more</p></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="images/gym-interior-weight-training-people-exer-4.jpg" alt="Functional training space" loading="lazy" />
+            <figcaption><h4 data-i18n="gal_func_t">Functional Training</h4><p data-i18n="gal_func_s">Strength &amp; mobility</p></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="images/gym-interior-weight-training-people-exer-3.jpg" alt="Group training session" loading="lazy" />
+            <figcaption><h4 data-i18n="gal_group_t">Group Classes</h4><p data-i18n="gal_group_s">Train together</p></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="images/gym-locker-room-reception-facility-clean-1.webp" alt="Locker rooms" loading="lazy" />
+            <figcaption><h4 data-i18n="gal_locker_t">Locker Rooms</h4><p data-i18n="gal_locker_s">Secure &amp; clean</p></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="images/gym-locker-room-reception-facility-clean-3.jpg" alt="Reception area" loading="lazy" />
+            <figcaption><h4 data-i18n="gal_recept_t">Reception</h4><p data-i18n="gal_recept_s">Welcome lounge</p></figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="images/gym-interior-weight-training-people-exer-5.jpg" alt="Recovery and cool-down area" loading="lazy" />
+            <figcaption><h4 data-i18n="gal_recov_t">Recovery Area</h4><p data-i18n="gal_recov_s">Rest &amp; recharge</p></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TRAINERS ===================== -->
+    <section class="section section--dark" id="trainers">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="label" data-i18n="tr_label">Meet The Team</p>
+          <h2 data-i18n="tr_h2">Your Coaches</h2>
+          <p class="section__note" data-i18n="tr_note">Both coaches train in bodybuilding <em>and</em> fitness — so you get complete guidance.</p>
+        </div>
+        <div class="grid grid--2 trainers">
+          <article class="trainer reveal">
+            <div class="trainer__photo"><img src="images/personal-fitness-trainer-coaching-portra-1.jpg" alt="Coach Mirwais Sakhi" loading="lazy" /></div>
+            <div class="trainer__body">
+              <h3>Mirwais Sakhi</h3>
+              <p class="trainer__role" data-i18n="mir_role">Co-Founder &amp; Head Coach</p>
+              <p class="trainer__spec" data-i18n="tr_spec">Specialty: Bodybuilding &amp; Fitness</p>
+              <p class="trainer__exp" data-i18n="tr_exp">Experience: 8+ years</p>
+              <p data-i18n="mir_bio">Mirwais specializes in bodybuilding programming and strength development. He delivers hands-on coaching focused on technique, progressive overload, and real, visible results.</p>
+            </div>
+          </article>
+          <article class="trainer reveal">
+            <div class="trainer__photo"><img src="images/personal-fitness-trainer-coaching-portra-2.jpg" alt="Coach Nasibullah Azimi" loading="lazy" /></div>
+            <div class="trainer__body">
+              <h3>Nasibullah Azimi</h3>
+              <p class="trainer__role" data-i18n="nas_role">Co-Founder &amp; Head Coach</p>
+              <p class="trainer__spec" data-i18n="tr_spec">Specialty: Bodybuilding &amp; Fitness</p>
+              <p class="trainer__exp" data-i18n="tr_exp">Experience: 8+ years</p>
+              <p data-i18n="nas_bio">Nasibullah focuses on fitness, conditioning, and personal coaching — helping members build sustainable habits, lose fat, and get genuinely stronger.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="label" data-i18n="test_label">Member Stories</p>
+          <h2 data-i18n="test_h2">What our members say</h2>
+        </div>
+        <div class="testi reveal">
+          <button class="testi__btn testi__btn--prev" id="testiPrev" aria-label="Previous">‹</button>
+          <div class="testi__viewport">
+            <div class="testi__track" id="testiTrack">
+              <figure class="testi__slide">
+                <div class="testi__stars">★★★★★</div>
+                <blockquote data-i18n="test_q1">The best gym in Mazar-e-Sharif. The coaches actually push you and the equipment is top notch. I've never felt stronger.</blockquote>
+                <figcaption><span class="avatar">AK</span><div><strong data-i18n="test_n1">Ahmad K.</strong><small data-i18n="test_s1">Member since 2022</small></div></figcaption>
+              </figure>
+              <figure class="testi__slide">
+                <div class="testi__stars">★★★★★</div>
+                <blockquote data-i18n="test_q2">Clean, well-equipped, and the personal coaching completely changed my routine. Nasibullah really knows his stuff.</blockquote>
+                <figcaption><span class="avatar">FR</span><div><strong data-i18n="test_n2">Fatima R.</strong><small data-i18n="test_s2">Member since 2023</small></div></figcaption>
+              </figure>
+              <figure class="testi__slide">
+                <div class="testi__stars">★★★★★</div>
+                <blockquote data-i18n="test_q3">Great atmosphere and serious training. Whether you're a beginner or experienced, FITBODY has you covered. Highly recommend.</blockquote>
+                <figcaption><span class="avatar">ZA</span><div><strong data-i18n="test_n3">Zmarai A.</strong><small data-i18n="test_s3">Member since 2021</small></div></figcaption>
+              </figure>
+            </div>
+          </div>
+          <button class="testi__btn testi__btn--next" id="testiNext" aria-label="Next">›</button>
+          <div class="testi__dots" id="testiDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SCHEDULE ===================== -->
+    <section class="section section--dark" id="schedule">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="label" data-i18n="sch_label">Gym Schedule</p>
+          <h2 data-i18n="sch_h2">Opening Hours &amp; Weekly Flow</h2>
+          <p class="section__note" data-i18n="sch_note">Informational only — no online booking required.</p>
+        </div>
+        <div class="schedule glass reveal">
+          <table>
+            <thead>
+              <tr><th data-i18n="sch_day">Day</th><th data-i18n="sch_hours">Opening Hours</th><th data-i18n="sch_morning">Morning (7–10)</th><th data-i18n="sch_evening">Evening (5–9)</th></tr>
+            </thead>
+            <tbody>
+              <tr><td data-i18n="day_sat">Saturday</td><td>6:00 – 22:00</td><td data-i18n="cls_body">Bodybuilding</td><td data-i18n="cls_fit">Fitness &amp; Conditioning</td></tr>
+              <tr><td data-i18n="day_sun">Sunday</td><td>6:00 – 22:00</td><td data-i18n="cls_body">Bodybuilding</td><td data-i18n="cls_personal">Personal Coaching</td></tr>
+              <tr><td data-i18n="day_mon">Monday</td><td>6:00 – 22:00</td><td data-i18n="cls_strength">Strength</td><td data-i18n="cls_fit">Fitness &amp; Conditioning</td></tr>
+              <tr><td data-i18n="day_tue">Tuesday</td><td>6:00 – 22:00</td><td data-i18n="cls_body">Bodybuilding</td><td data-i18n="cls_personal">Personal Coaching</td></tr>
+              <tr><td data-i18n="day_wed">Wednesday</td><td>6:00 – 22:00</td><td data-i18n="cls_strength">Strength</td><td data-i18n="cls_fit">Fitness &amp; Conditioning</td></tr>
+              <tr><td data-i18n="day_thu">Thursday</td><td>6:00 – 22:00</td><td data-i18n="cls_open">Open Training</td><td data-i18n="cls_open">Open Training</td></tr>
+              <tr class="schedule__fri"><td data-i18n="day_fri">Friday</td><td>14:00 – 22:00</td><td colspan="2" data-i18n="fri_open">Open Training (Afternoon &amp; Evening)</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MEMBERSHIP ===================== -->
+    <section class="section" id="membership">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="label" data-i18n="mem_label">Membership</p>
+          <h2 data-i18n="mem_h2">Simple, honest pricing</h2>
+          <p class="section__note" data-i18n="mem_note">No contracts. Upgrade anytime. Prices in Afghan Afghani (AFN).</p>
+        </div>
+        <div class="grid grid--3 plans">
+          <article class="plan reveal">
+            <h3 data-i18n="plan_basic">Basic</h3>
+            <p class="plan__price" data-i18n="price_basic">500<span>AFN/mo</span></p>
+            <ul>
+              <li data-i18n="plan_basic_b1">Full gym floor access</li>
+              <li data-i18n="plan_basic_b2">Free weights &amp; machines</li>
+              <li data-i18n="plan_basic_b3">Bodybuilding &amp; fitness areas</li>
+              <li data-i18n="plan_basic_b4">Locker room access</li>
+              <li data-i18n="plan_basic_b5">Friendly community</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block" data-i18n="plan_basic_btn">Get Started</a>
+          </article>
+          <article class="plan plan--featured reveal">
+            <span class="plan__tag" data-i18n="plan_prem_tag">Most Popular</span>
+            <h3 data-i18n="plan_premium">Premium</h3>
+            <p class="plan__price" data-i18n="price_premium">1000<span>AFN/mo</span></p>
+            <ul>
+              <li data-i18n="plan_prem_b1">Everything in Basic</li>
+              <li data-i18n="plan_prem_b2">Treadmill access</li>
+              <li data-i18n="plan_prem_b3">Climbing machine access</li>
+              <li data-i18n="plan_prem_b4">Full cardio zone</li>
+              <li data-i18n="plan_prem_b5">Monthly progress check-in</li>
+            </ul>
+            <a href="#contact" class="btn btn--block" data-i18n="plan_prem_btn">Join Premium</a>
+          </article>
+          <article class="plan reveal">
+            <h3 data-i18n="plan_coach">Personal Coaching</h3>
+            <p class="plan__price" data-i18n="price_coach">Ask<span>AFN</span></p>
+            <ul>
+              <li data-i18n="plan_coach_b1">1-on-1 with a coach</li>
+              <li data-i18n="plan_coach_b2">Custom training program</li>
+              <li data-i18n="plan_coach_b3">Nutrition guidance</li>
+              <li data-i18n="plan_coach_b4">Form &amp; technique coaching</li>
+              <li data-i18n="plan_coach_b5">Flexible session times</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost btn--block" data-i18n="plan_coach_btn">Enquire</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section section--dark" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <p class="label" data-i18n="faq_label">FAQ</p>
+          <h2 data-i18n="faq_h2">Common Questions</h2>
+        </div>
+        <div class="faq reveal">
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false"><span data-i18n="faq1_q">What are your opening hours?</span><span class="faq__icon">+</span></button>
+            <div class="faq__a"><p data-i18n="faq1_a">Saturday to Thursday from 6:00 AM to 10:00 PM, and Friday from 2:00 PM to 10:00 PM.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false"><span data-i18n="faq2_q">Is there parking available?</span><span class="faq__icon">+</span></button>
+            <div class="faq__a"><p data-i18n="faq2_a">Yes. Parking is available around Al-watan Market and the Alokozay intersection, just steps from our 4th-floor entrance.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false"><span data-i18n="faq3_q">What membership options do you offer?</span><span class="faq__icon">+</span></button>
+            <div class="faq__a"><p data-i18n="faq3_a">We offer Basic (500 AFN/month), Premium (1000 AFN/month with treadmill &amp; climbing machine), and Personal Coaching packages. No long-term contracts.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false"><span data-i18n="faq4_q">Do you offer a free trial?</span><span class="faq__icon">+</span></button>
+            <div class="faq__a"><p data-i18n="faq4_a">Yes — your first session is free. Come train with us and meet the coaches before you commit.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false"><span data-i18n="faq5_q">Can I get personal training?</span><span class="faq__icon">+</span></button>
+            <div class="faq__a"><p data-i18n="faq5_a">Absolutely. Both Mirwais and Nasibullah provide personal coaching in bodybuilding and fitness, tailored to your goals.</p></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" aria-expanded="false"><span data-i18n="faq6_q">What is your guest policy?</span><span class="faq__icon">+</span></button>
+            <div class="faq__a"><p data-i18n="faq6_a">Members can bring a guest for a Day Pass (50 AFN). Just let reception know when you arrive.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="label" data-i18n="con_label">Get In Touch</p>
+          <h2 data-i18n="con_h2">Visit FITBODY Today</h2>
+        </div>
+        <div class="contact">
+          <div class="contact__info glass reveal">
+            <h3 data-i18n="con_find">Find us</h3>
+            <p class="contact__row" data-i18n="con_addr">📍 Alokozay Intersection, Al-watan Market<br><strong>4th Floor</strong>, Mazar-e-Sharif, Balkh, Afghanistan</p>
+            <p class="contact__row" data-i18n="con_phone">📱 Phone / WhatsApp: <a href="#">+93 ___ ___ ____</a></p>
+            <p class="contact__row" data-i18n="con_email">✉️ Email: <a href="mailto:fitbody.mazari@gmail.com">fitbody.mazari@gmail.com</a></p>
+            <p class="contact__row" data-i18n="con_hours">🕒 Sat–Thu 6:00–22:00 · Fri 14:00–22:00</p>
+            <div class="contact__social">
+              <a href="#" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3 0 4.1.06 1 .05 1.7.2 2.3.43.6.24 1.1.56 1.6 1.06.5.5.8 1 1.06 1.6.23.6.38 1.3.43 2.3.06 1.1.06 1.4.06 4.1s0 3-.06 4.1c-.05 1-.2 1.7-.43 2.3-.24.6-.56 1.1-1.06 1.6-.5.5-.8 1-1.6 1.06-.6.23-1.3.38-2.3.43-1.1.06-1.4.06-4.1.06s-3 0-4.1-.06c-1-.05-1.7-.2-2.3-.43-.6-.24-1.1-.56-1.6-1.06-.5-.5-.8-1-1.06-1.6-.23-.6-.38-1.3-.43-2.3C2 15 2 14.7 2 12s0-3 .06-4.1c.05-1 .2-1.7.43-2.3.24-.6.56-1.1 1.06-1.6.5-.5.8-1 1.6-1.06.6-.23 1.3-.38 2.3-.43C9 2 9.3 2 12 2zm0 1.8c-2.6 0-2.9 0-4 .06-.8.03-1.2.16-1.5.27-.4.14-.6.3-.9.6-.2.2-.4.5-.6.9-.1.3-.24.7-.27 1.5-.05 1-.06 1.3-.06 4s0 2.9.06 4c.03.8.16 1.2.27 1.5.14.4.3.6.6.9.2.2.4.5.6.9.1.3.24.7.27 1.5.05 1 .06 1.3.06 4s0 2.9-.06 4c-.03.8-.16 1.2-.27 1.5-.14.4-.3.6-.6.9-.2.2-.4.5-.6.9-.1.3-.24.7-.27 1.5-.05 1-.06 1.3-.06-4-.06s-2.9 0-4-.06c-.8-.03-1.2-.16-1.5-.27-.4-.14-.6-.3-.9-.6-.2-.2-.5-.4-.9-.6-.3-.1-.7-.24-1.5-.27-1-.05-1.3-.06-4-.06zm0 3.06A4.14 4.14 0 1 0 12 16.14 4.14 4.14 0 0 0 12 6.86zm0 6.82A2.68 2.68 0 1 1 12 9.32a2.68 2.68 0 0 1 0 5.36zm5.34-7a.97.97 0 1 1-1.94 0 .97.97 0 0 1 1.94 0z" fill="currentColor"/></svg></a>
+              <a href="#" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"><path d="M13 22v-8h3l1-4h-4V8c0-1 .3-2 2-2h2V2.1C17.6 2 16.5 2 15.3 2 12.6 2 11 3.6 11 6.5V10H8v4h3v8z" fill="currentColor"/></svg></a>
+              <a href="#" aria-label="WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.6-1.4 1.2-2 1.3-.5.1-1.2.1-1.9-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1-1.3-1-2.5s.6-1.8 1-2.6c.1-.2.3-.3.5-.3h.4c.2 0 .3 0 .4.3l.7 1.7c.1.2.1.3 0 .5l-.4.5-.2.3c-.1.1-.2.3-.1.4.2.4.8 1.4 1.7 2.3.9.9 1.7 1.5 2.1 1.7.1.1.3.1.4-.1l.5-.6c.1-.2.3-.2.5-.1l1.8.8c.2.1.3.2.3.4.1.1.1.6 0 1z" fill="currentColor"/></svg></a>
+              <a href="#" aria-label="Telegram" title="Telegram"><svg viewBox="0 0 24 24"><path d="M21.9 4.3 18.5 20c-.2 1-.9 1.2-1.8.8l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.3 9.6-8.7c.4-.4-.1-.6-.6-.2L5.6 13.2 1 11.9c-1-.3-1-1 .2-1.5L20.8 2.8c.9-.3 1.7.2 1.1 1.5z" fill="currentColor"/></svg></a>
+            </div>
+          </div>
+
+          <form class="contact__form glass reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="cName" data-i18n="form_name">Name</label>
+              <input type="text" id="cName" name="name" placeholder="Your full name" data-i18n-ph="form_name_ph" required />
+            </div>
+            <div class="field">
+              <label for="cEmail" data-i18n="form_email">Email</label>
+              <input type="email" id="cEmail" name="email" placeholder="you@example.com" data-i18n-ph="form_email_ph" required />
+            </div>
+            <div class="field">
+              <label for="cMsg" data-i18n="form_msg">Message</label>
+              <textarea id="cMsg" name="message" rows="5" placeholder="Tell us about your goals or ask a question…" data-i18n-ph="form_msg_ph" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--block" data-i18n="form_btn">Send Message</button>
+            <p class="contact__note" id="formNote" data-i18n="form_note">* Demo form — connect it to email/WhatsApp to receive messages.</p>
+          </form>
+        </div>
+
+        <div class="contact__map reveal">
+          <iframe title="FITBODY location map" src="https://www.google.com/maps?q=Alokozay+intersection+Mazar-e-Sharif+Afghanistan&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="brand brand--footer">
+          <svg class="brand__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6M6 7v10M18 7v10M21 9v6M6 12h12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>FIT<span>BODY</span></span>
+        </a>
+        <p data-i18n="foot_tag">Premium bodybuilding &amp; fitness in Mazar-e-Sharif. Coached by Mirwais Sakhi &amp; Nasibullah Azimi.</p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="foot_ql">Quick Links</h4>
+        <a href="#about" data-i18n="foot_about">About</a>
+        <a href="#facilities" data-i18n="foot_fac">Facilities</a>
+        <a href="#trainers" data-i18n="foot_tr">Trainers</a>
+        <a href="#membership" data-i18n="foot_mem">Membership</a>
+        <a href="#faq" data-i18n="foot_faq">FAQ</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="foot_con">Contact</h4>
+        <a href="#contact" data-i18n="foot_addr1">Al-watan Market, 4th Floor</a>
+        <a href="#contact" data-i18n="foot_addr2">Alokozay Intersection</a>
+        <a href="#" data-i18n="foot_phone">+93 ___ ___ ____</a>
+        <a href="mailto:fitbody.mazari@gmail.com" data-i18n="foot_email">fitbody.mazari@gmail.com</a>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="foot_follow">Follow</h4>
+        <a href="#" data-i18n="foot_ig">Instagram</a>
+        <a href="#" data-i18n="foot_fb">Facebook</a>
+        <a href="#" data-i18n="foot_wa">WhatsApp</a>
+        <a href="#" data-i18n="foot_tg">Telegram</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p><span id="year"></span> © <span data-i18n="foot_copy1">FITBODY. All rights reserved.</span></p>
+      <p data-i18n="foot_copy2">Built for strength. Built for Mazar-e-Sharif.</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
